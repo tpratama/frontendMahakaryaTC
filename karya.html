@@ -171,8 +171,8 @@
                     </li>
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#ta" class="" aria-expanded="true"><i class="fa fa-fw fa-arrows-v"></i> Tugas Akhir <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="ta" class="collapse in">
-                            <li style="background-color:black">
+                        <ul id="ta" class="collapse">
+                            <li>
 									<a href="tugasakhir.html"><i class="fa fa-fw fa-edit"></i> Input Data</a>
 							</li>
 							<li>
@@ -185,8 +185,8 @@
                     </li>
 					<li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#kry" class="" aria-expanded="true"><i class="fa fa-fw fa-arrows-v"></i> Karya <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="kry" class="collapse">
-                            <li>
+                        <ul id="kry" class="collapse in">
+                            <li  style="background-color:black">
 									<a href="karya.html"><i class="fa fa-fw fa-edit"></i> Input Data</a>
 							 </li>
 							<li>
@@ -233,9 +233,9 @@
 				<div class="row">
 					<form role="form">
 						<div class="form-group">
-							<label>Judul Tugas Akhir</label>
+							<label>Judul Karya</label>
 							<input class="form-control">
-								<p class="help-block"> Masukan judul dari tugas akhir anda disini</p>
+								<p class="help-block"> Masukan judul dari karya anda disini</p>
 						</div>
 						<div class="form-group">
 							<label>Nama User</label>
@@ -243,7 +243,7 @@
 								<p class="help-block"> Masukan nama user disini</p>
 						</div>
 						<div class="form-group">
-							<label>Deskripsi Tugas Akhir</label>
+							<label>Deskripsi Karya</label>
 								<textarea class="form-control" rows="3"></textarea>
 						</div>
 				
@@ -254,7 +254,7 @@
 					
 						
 						<div class="form-group">
-							<label>RMK</label>
+							<label>Bidang RMK</label>
 								<select class="form-control" >
 									<option>RPL</option>
 									<option>NCC</option>
@@ -268,10 +268,19 @@
 						</div>
 						
 						<div class="form-group">
-							<label>Poster Tugas Akhir</label>
+							<label>Screenshot</label>
 							<input type="file">
 						</div>
-											
+						
+						<div class="form-group">
+							<label>Video</label>
+							<input class="form-control">
+								<p class="help-block"> Masukan link youtube disini</p>
+						</div>
+						<div class="form-group">
+							<label>Demo</label>
+							<input type="file">
+						</div>
 							<br>
 							<br>
 								<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
